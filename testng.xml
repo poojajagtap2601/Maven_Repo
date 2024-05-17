@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testng.failtestscriptexecution.AutomaticallyReRun"></listener>
+    </listeners>
+    <!--    <groups>
+            <run>
+                <include name="smoke"></include>
+                <include name="sanity"></include>
+            </run>
+        </groups>-->
+<!--<parameter name="courseName" value="java"></parameter>-->
+<!--<parameter name="cityName" value="pune"></parameter>-->
+<!--    <parameter name="browserName" value="chrome"></parameter>-->
+    <test verbose="2" preserve-order="true" parallel="true" thread-count="2" name="C:/Users/Kumar/IdeaProjects/Maven_project">
+        <classes>
+<!--
+            <class name="testng.annotations.BeforeAfterAnotherMethod"/>
+            <class name="testng.annotations.BeforeAfterTestExample"/>
+            <class name="testng.annotations.BeforeAfterMethodExample"/>
+            <class name="testng.annotations.DependsOnGroupExample"/>
+            <class name="testng.annotations.DependsOnMethodExample"/>
+            <class name="testng.priority.InvocationCountExample"/>
+
+            <class name="mavendemo.TestNGExample"/>
+            <class name="testng.assertion.SoftAssertExample"/>
+            <class name="testng.assertion.HardAssertExample"/>-->
+<!--            <class name="testng.priority.PriorityExample"/>-->
+            <class name="testng.parameterization.NormalDataProvider"/>
+            <!-- <class name="testng.parameterization.DataProviderWithExcel"/>-->
+                    </classes>
+                </test>
+            </suite>
