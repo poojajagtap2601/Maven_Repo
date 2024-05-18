@@ -21,5 +21,6 @@ public class HardAssertExample {
         Assert.assertEquals(title,"Rediffmail","Rediffmail title should be match.");
         Assert.assertTrue(userNameTextBox.isDisplayed(),"UserName TextBox should be displayed.");
         System.out.println("Hello, Pooja");
+        driver.close();
     }
 }
