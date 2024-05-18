@@ -21,7 +21,7 @@ public class SoftAssertExample {
         WebElement userNameTextBox = driver.findElement(By.id("Login1"));
         softassert.assertEquals(title, "Rediffmail", "Rediffmail title should be match.");
         softassert.assertTrue(userNameTextBox.isDisplayed(), "UserName TextBox should be displayed.");
-        System.out.println("Hello, Good morning");
+        System.out.println("Hello,How are you?");
         softassert.assertAll();
         driver.close();
     }
